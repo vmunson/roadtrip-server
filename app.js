@@ -10,6 +10,7 @@ app.use(require('./middleware/validate-session'))
 app.use('/api/user', require('./routes/user'));
 app.use('/api/login', require('./routes/sessions'));
 app.use('/api/player', require('./routes/playerInfo'))
+app.use('/api/story', require('./routes/story'))
 
 console.log(process.env.TEST)
 
